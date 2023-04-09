@@ -1,14 +1,14 @@
-const todoInput = document.querySelector("#todo-input");
+// const todoInput = document.querySelector("#todo-input");
 
-const todos = [];
+// const todos = [];
 
-todoInput.addEventListener("keyup", function(e) {
-    if(e.key === "Enter" || e.keyCode === 13){
-        todos.push({value: e.target.value, checked: false});
-        newTodo(e.target.value);
-        todoInput.value = "";
-    }
-})
+// todoInput.addEventListener("keyup", function(e) {
+//     if(e.key === "Enter" || e.keyCode === 13){
+//         todos.push({value: e.target.value, checked: false});
+//         newTodo(e.target.value);
+//         todoInput.value = "";
+//     }
+// })
 
 function changeTheme() {
     document.body.classList.toggle("light");
